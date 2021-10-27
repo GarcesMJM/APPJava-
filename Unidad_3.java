@@ -35,11 +35,25 @@ public class Unidad_3{
         {
             JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
         }
+        if(mes.equalsIgnoreCase("Febrero") && dia>=21 && dia<=31 || mes.equalsIgnoreCase("Febrero") && dia<=19)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
+        }
+        if(mes.equalsIgnoreCase("Enero") && dia>=21 && dia<=31 || mes.equalsIgnoreCase("Febrero") && dia<=19)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
+        }
+        if(mes.equalsIgnoreCase("Enero") && dia>=21 && dia<=31 || mes.equalsIgnoreCase("Febrero") && dia<=19)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
+        }
     }
-    
     public static void eperro()
     {
-        
+        double edad, edadper; 
+        edad=Double.parseDouble(JOptionPane.showInputDialog("Digite su edad"));
+        edadper=edad/7;
+        JOptionPane.showMessageDialog(null, "Usted tiene "+edadper+" años en edad de perro");
     }
     public static void numero()
     {
