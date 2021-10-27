@@ -7,9 +7,10 @@ public class Unidad_3{
         opcion=Integer.parseInt(JOptionPane.showInputDialog(
         "Menú Principal\n\n"
         +"1. Signos de Zodiaco\n"
-        +"2. Calcular edad de humano en edad de perro\n"
-        +"3. Numerología\n" 
-        +"4. Salir"));
+        +"2. Calcular edad de humano en años de perro\n"
+        +"3. Calcular número de días vividos\n"
+        +"4. Numerología\n" 
+        +"5. Salir"));
         if(opcion==1)
         {
             szodiaco();
@@ -20,9 +21,13 @@ public class Unidad_3{
         }
         if(opcion==3)
         {
+            diasV();
+        }
+        if(opcion==4)
+        {
             numero();
         }       
-        }while(opcion<5);
+        }while(opcion<6);
         JOptionPane.showMessageDialog(null, "La opción ingresada es incorrecta");   
     }
     public static void szodiaco()
@@ -47,6 +52,11 @@ public class Unidad_3{
         {
             JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
         }
+    }
+    public static void diasV()
+    {
+
+
     }
     public static void eperro()
     {
