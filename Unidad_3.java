@@ -40,17 +40,17 @@ public class Unidad_3{
         {
             JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
         }
-        if(mes.equalsIgnoreCase("Febrero") && dia>=21 && dia<=31 || mes.equalsIgnoreCase("Febrero") && dia<=19)
+        if(mes.equalsIgnoreCase("Febrero") && dia>=20 && dia<=28 || mes.equalsIgnoreCase("Marzo") && dia<=20)
         {
-            JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
+            JOptionPane.showMessageDialog(null, "Su signo es: PISCIS ");
         }
-        if(mes.equalsIgnoreCase("Enero") && dia>=21 && dia<=31 || mes.equalsIgnoreCase("Febrero") && dia<=19)
+        if(mes.equalsIgnoreCase("Marzo") && dia>=21 && dia<=31 || mes.equalsIgnoreCase("Abril") && dia<=20)
         {
-            JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
+            JOptionPane.showMessageDialog(null, "Su signo es: ARIES ");
         }
-        if(mes.equalsIgnoreCase("Enero") && dia>=21 && dia<=31 || mes.equalsIgnoreCase("Febrero") && dia<=19)
+        if(mes.equalsIgnoreCase("Abril") && dia>=21 && dia<=30 || mes.equalsIgnoreCase("Mayo") && dia<=21)
         {
-            JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
+            JOptionPane.showMessageDialog(null, "Su signo es: TAURO ");
         }
     }
     public static void diasV()
