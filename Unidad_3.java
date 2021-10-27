@@ -99,6 +99,12 @@ public class Unidad_3{
     }
     public static void numero()
     {
-
+        int diaN, num, n1, n2; 
+        diaN=Integer.parseInt(JOptionPane.showInputDialog("Digite su dia de nacimiento"));
+        if(diaN>9)
+        {
+            n1=diaN/10;
+            n2=
+        }
     }
 }
