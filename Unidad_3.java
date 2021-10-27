@@ -52,6 +52,38 @@ public class Unidad_3{
         {
             JOptionPane.showMessageDialog(null, "Su signo es: TAURO ");
         }
+        if(mes.equalsIgnoreCase("Mayo") && dia>=22 && dia<=31 || mes.equalsIgnoreCase("Junio") && dia<=21)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: GÉMINIS ");
+        }
+        if(mes.equalsIgnoreCase("Junio") && dia>=22 && dia<=30 || mes.equalsIgnoreCase("Julio") && dia<=22)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: CÁNCER ");
+        }
+        if(mes.equalsIgnoreCase("Julio") && dia>=23 && dia<=31 || mes.equalsIgnoreCase("Agosto") && dia<=23)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: LEO ");
+        }
+        if(mes.equalsIgnoreCase("Agosto") && dia>=24 && dia<=31 || mes.equalsIgnoreCase("Septiembre") && dia<=23)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: VIRGO ");
+        }
+        if(mes.equalsIgnoreCase("Septiembre") && dia>=24 && dia<=30 || mes.equalsIgnoreCase("Octubre") && dia<=23)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: LIBRA ");
+        }
+        if(mes.equalsIgnoreCase("Octubre") && dia>=24 && dia<=31 || mes.equalsIgnoreCase("Noviembre") && dia<=22)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: SCORPIO ");
+        }
+        if(mes.equalsIgnoreCase("Noviembre") && dia>=23 && dia<=30 || mes.equalsIgnoreCase("Diciembre") && dia<=21)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: SAGITARIO ");
+        }
+        if(mes.equalsIgnoreCase("Diciembre") && dia>=22 && dia<=31 || mes.equalsIgnoreCase("Enero") && dia<=20)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: CAPRICORNIO ");
+        }
     }
     public static void diasV()
     {
