@@ -2,9 +2,6 @@ import javax.swing.JOptionPane;
 
 public class Unidad_3{
     public static void main(String[] args) {
-        szodiaco();
-        eperro();
-        numero();
         int opcion; 
         do{
         opcion=Integer.parseInt(JOptionPane.showInputDialog(
@@ -24,24 +21,25 @@ public class Unidad_3{
         if(opcion==3)
         {
             numero();
-        } 
-        if(opcion>=5)  
-        {
-            JOptionPane.showMessageDialog(null, "La opción ingresada es incorrecta");
-        } 
-        
+        }       
         }while(opcion<5);
-      
-      
-        
+        JOptionPane.showMessageDialog(null, "La opción ingresada es incorrecta");   
     }
     public static void szodiaco()
     {
-
+        String mes; 
+        int dia;
+        mes=JOptionPane.showInputDialog("Digite el mes de su nacimiento");
+        dia=Integer.parseInt(JOptionPane.showInputDialog("Digite el día de su nacimiento"));
+        if(mes.equalsIgnoreCase("Enero") && dia>=21 && dia<=31 || mes.equalsIgnoreCase("Febrero") && dia<=19)
+        {
+            JOptionPane.showMessageDialog(null, "Su signo es: ACUARIO ");
+        }
     }
+    
     public static void eperro()
     {
-
+        
     }
     public static void numero()
     {
