@@ -76,7 +76,7 @@ public class Unidad_3 {
         
         Dia=Integer.parseInt(JOptionPane.showInputDialog("ingrese su dia de nacimiento"));
         Mes=Integer.parseInt(JOptionPane.showInputDialog("ingrese su mes de nacimiento"));
-        
+        Año=Integer.parseInt(JOptionPane.showInputDialog("ingrese su año de nacimiento"));
     }
 
     public static void eperro() {
