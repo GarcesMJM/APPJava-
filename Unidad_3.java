@@ -85,14 +85,16 @@ public class Unidad_3 {
 
     public static void diasV() {
 
-        int Dia, Mes, Año, Dias, Meses, Años, Diasvividos;
+        int Dia, Mes, Año, Meses, Años, Diasvividos;
 
         Dia = Integer.parseInt(JOptionPane.showInputDialog("ingrese su día de nacimiento"));
         Mes = Integer.parseInt(JOptionPane.showInputDialog("ingrese su mes de nacimiento"));
         Año = Integer.parseInt(JOptionPane.showInputDialog("ingrese su año de nacimiento"));
 
         Años = (2020 - Año) * 365;
-        Meses = (12 - Mes) * 30;
+        Meses = Mes*30;
+        Diasvividos=Años+Meses+Dia;
+        JOptionPane.showMessageDialog(null, "El número de dias vividos es "+Diasvividos);
     }
 
     public static void eperro() {
