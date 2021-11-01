@@ -116,7 +116,6 @@ public class Unidad_3 {
         }
 
 
-        JOptionPane.showMessageDialog("Numerología");
-        JOptionPane.showMessageDialog(null, "Tu numero segun tu numerologia es " + n2);
+        JOptionPane.showMessageDialog(null, "Numerología\n Tu numero segun tu numerologia es " + n2);
     }
 }
