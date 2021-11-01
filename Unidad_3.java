@@ -71,8 +71,8 @@ public class Unidad_3 {
     }
 
     public static void diasV() {
-        
-        int Dia,Mes,Año;
+
+        int Dia, Mes, Año;
 
     }
 
@@ -82,7 +82,7 @@ public class Unidad_3 {
         edadper = edad * 7;
         perroedad = (Math.log(edad) * 16) + 31;
         JOptionPane.showMessageDialog(null, "Usted tiene " + edadper + " años en edad de perro");
-        JOptionPane.showMessageDialog(null, "Usted tiene " + perroedad + " años en edad de perro con la nueva formula");
+        JOptionPane.showMessageDialog(null, "Usted tiene " + perroedad + "años en edad de perro con la nueva formula");
 
     }
 
@@ -95,9 +95,15 @@ public class Unidad_3 {
             n2 = (n1 / 10) + (n1 % 10);
         }
 
-            System.out.println("intenado el primer commit - prueba ");
-            
+        System.out.println("Numerología");
 
     }
 
+public static void Salir(){
+    int Salir, n5;
+    Salir = Integer.parseInt(JOptionPane.showInputDialog("Deseas seguir?"));
+System.out.println("           __");
+       System.out.println("Deseas continuar?");
+        System.out.println("a. Si");
+        System.out.println("b. No");
 }
