@@ -85,12 +85,15 @@ public class Unidad_3 {
     }
 
     public static void numero() {
-        int diaN, num, n1, n2;
+        int diaN, n1;
+        int n2 = 0;
         diaN = Integer.parseInt(JOptionPane.showInputDialog("Digite su dia de nacimiento"));
-        if (diaN > 9) {
-            n1 = diaN / 10;
-
+        if (diaN < 32 || diaN > 0) {
+            n1 = (diaN / 10) + (diaN % 10);
+            n2 = (n1 / 10) + (n1 % 10);
         }
+        JOptionPane.showMessageDialog(null, "Tu numero segun tu numerologia es " + n2);
+
     }
 
 }
