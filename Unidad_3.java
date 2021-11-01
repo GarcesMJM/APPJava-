@@ -73,6 +73,8 @@ public class Unidad_3 {
     public static void diasV() {
         
         int Dia,Mes,Año;
+        
+        Dia=Integer.parseInt(JOptionPane.showInputDialog("ingrese su dia de nacimiento"));
 
     }
 
