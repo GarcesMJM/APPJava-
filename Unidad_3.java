@@ -1,4 +1,7 @@
+import java.util.Calendar;
+
 import javax.swing.JOptionPane;
+import javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener;
 
 public class Unidad_3 {
     public static void main(String[] args) {
@@ -80,7 +83,6 @@ public class Unidad_3 {
 
         Años = (2020 - Año) * 365;
         Meses = (12 - Mes) * 30;
-       
 
     }
 
@@ -103,7 +105,16 @@ public class Unidad_3 {
             n2 = (n1 / 10) + (n1 % 10);
         }
 
-        System.out.println("Numerología");
+        JOptionPane.showMessageDialog(null, "Tu numero segun tu numerologia es " + n2);
 
+    }
+
+    public static void Salir() {
+        int Salir;
+        Salir = Integer.parseInt(JOptionPane.showInputDialog("Deseas seguir?"));
+
+        System.out.println("Deseas continuar?");
+        System.out.println("a. Si");
+        System.out.println("b. No");
     }
 }
