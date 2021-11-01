@@ -71,15 +71,17 @@ public class Unidad_3 {
     }
 
     public static void diasV() {
-        
-        int Dia,Mes,Año,Dias,Meses,Años,Diasvividos;
-        
-        Dia=Integer.parseInt(JOptionPane.showInputDialog("ingrese su dia de nacimiento"));
-        Mes=Integer.parseInt(JOptionPane.showInputDialog("ingrese su mes de nacimiento"));
-        Año=Integer.parseInt(JOptionPane.showInputDialog("ingrese su año de nacimiento"));
 
-        Años=(2020-Año)*365;
-        Meses=(12-Mes)*30;
+        int Dia, Mes, Año, Dias, Meses, Años, Diasvividos;
+
+        Dia = Integer.parseInt(JOptionPane.showInputDialog("ingrese su dia de nacimiento"));
+        Mes = Integer.parseInt(JOptionPane.showInputDialog("ingrese su mes de nacimiento"));
+        Año = Integer.parseInt(JOptionPane.showInputDialog("ingrese su año de nacimiento"));
+
+        Años = (2020 - Año) * 365;
+        Meses = (12 - Mes) * 30;
+       
+
     }
 
     public static void eperro() {
@@ -88,7 +90,7 @@ public class Unidad_3 {
         edadper = edad * 7;
         perroedad = (Math.log(edad) * 16) + 31;
         JOptionPane.showMessageDialog(null, "Usted tiene " + edadper + " años en edad de perro");
-        JOptionPane.showMessageDialog(null, "Usted tiene " + perroedad + " años en edad de perro con la nueva formula");
+        JOptionPane.showMessageDialog(null, "Usted tiene " + perroedad + "años en edad de perro con la nueva formula");
 
     }
 
@@ -101,9 +103,7 @@ public class Unidad_3 {
             n2 = (n1 / 10) + (n1 % 10);
         }
 
-            System.out.println("intenado el primer commit - prueba ");
-            
+        System.out.println("Numerología");
 
     }
-
 }
