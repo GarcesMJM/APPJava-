@@ -1,17 +1,21 @@
+import java.util.Calendar;
+
 import javax.swing.JOptionPane;
+import javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener;
 
 public class Unidad_3 {
     public static void main(String[] args) {
+        int opcion;
         do{
         opcion=Integer.parseInt(JOptionPane.showInputDialog(
-        " _______________________________________________________"
-        +"|  Menú Principal\n\n                                 |"
-        +"|  1. Signos de Zodiaco\n                             |"
-        +"|  2. Calcular edad de humano en años de perro\n      |"
-        +"|  3. Calcular número de días vividos\n               |"
-        +"|  4. Numerología\n                                   |" 
-        +"|  5. Salir                                           |"
-        +"|_____________________________________________________|"));
+        " __________________________________________\n"
+        +"|  Menú Principal                                                                  |\n|                                                                                                |\n"
+        +"|  1. Signos de Zodiaco                                                       |\n"
+        +"|  2. Calcular edad de humano en años de perro         |\n"
+        +"|  3. Calcular número de días vividos                              |\n"
+        +"|  4. Numerología                                                                  |\n" 
+        +"|  5. Salir                                                                                 |\n"
+        +"|_________________________________________|"));
         if(opcion==1)
         {
             szodiaco();
@@ -29,7 +33,8 @@ public class Unidad_3 {
             numero();
         }       
         }while(opcion<5);
-        }
+ 
+    }
 
     public static void szodiaco() {
         String mes;
@@ -88,8 +93,6 @@ public class Unidad_3 {
 
         Años = (2020 - Año) * 365;
         Meses = (12 - Mes) * 30;
-       
-
     }
 
     public static void eperro() {
@@ -112,7 +115,8 @@ public class Unidad_3 {
             n2 = (n1 / 10) + (n1 % 10);
         }
 
-        JOptionPane.showMessageDialog("Numerología");
 
+        JOptionPane.showMessageDialog("Numerología");
+        JOptionPane.showMessageDialog(null, "Tu numero segun tu numerologia es " + n2);
     }
 }
