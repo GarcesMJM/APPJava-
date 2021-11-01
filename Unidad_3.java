@@ -71,6 +71,8 @@ public class Unidad_3 {
     }
 
     public static void diasV() {
+        
+        int Dia,Mes,Año;
 
     }
 
