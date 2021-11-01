@@ -78,7 +78,7 @@ public class Unidad_3 {
         Mes=Integer.parseInt(JOptionPane.showInputDialog("ingrese su mes de nacimiento"));
         Año=Integer.parseInt(JOptionPane.showInputDialog("ingrese su año de nacimiento"));
 
-        
+        Años=(2020-Año)*365;
     }
 
     public static void eperro() {
