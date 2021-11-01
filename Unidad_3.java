@@ -72,11 +72,16 @@ public class Unidad_3 {
 
     public static void diasV() {
 
-        int Dia, Mes, Año, Dias, Meses, Años, Diasvividos;
+        int Dia, Mes, Año;
+        int ,Dias, Meses, Años, Diasvividos;
 
         Dia = Integer.parseInt(JOptionPane.showInputDialog("ingrese su dia de nacimiento"));
         Mes = Integer.parseInt(JOptionPane.showInputDialog("ingrese su mes de nacimiento"));
         Año = Integer.parseInt(JOptionPane.showInputDialog("ingrese su año de nacimiento"));
+
+        Años = (2020 - Año) * 365;
+        Meses = (2020 - Mes) * 12;
+        Dias = (2020 - Dia) * 30;
 
     }
 
@@ -102,12 +107,4 @@ public class Unidad_3 {
         System.out.println("Numerología");
 
     }
-
-public static void Salir(){
-    int Salir, n5;
-    Salir = Integer.parseInt(JOptionPane.showInputDialog("Deseas seguir?"));
-System.out.println("           __");
-       System.out.println("Deseas continuar?");
-        System.out.println("a. Si");
-        System.out.println("b. No");
 }
