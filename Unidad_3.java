@@ -27,8 +27,7 @@ public class Unidad_3{
         {
             numero();
         }       
-        }while(opcion<6);
-        JOptionPane.showMessageDialog(null, "La opción ingresada es incorrecta");   
+        }while(opcion<5);  
     }
     public static void szodiaco()
     {
