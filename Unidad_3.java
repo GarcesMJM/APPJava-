@@ -94,7 +94,7 @@ public class Unidad_3 {
         Años = (2020 - Año) * 365;
         Meses = Mes*30;
         Diasvividos=Años+Meses+Dia;
-        JOptionPane.showMessageDialog(null, "El número de dias vividos es "+Diasvividos);
+        JOptionPane.showMessageDialog(null, "El número de dias que ha vivido es "+Diasvividos);
     }
 
     public static void eperro() {
